@@ -1,10 +1,10 @@
  
- ###Task for execution:
+ ### Task for execution
  
  1. Create a SOAP server which will return `Hello World`
- 2. Create a test for making request to the SOAP server
+ 2. Create a test for making request to the **SOAP** server
  3. Create a test with fail
- 4. Create a SOAP server which will receive a parameter and return  'Good Morning' if a value of the parameter is 'morning', 'Good evening' if a value of the parameter is 'evening'. In another cases 'Incorrect value of the parameter' should be returned.
+ 4. Create a SOAP server which will receive a parameter and return  `Good Morning` if a value of the parameter is ***morning***, 'Good evening' if a value of the parameter is ***evening***. In another cases 'Incorrect value of the parameter' should be returned.
  5. Create tree test for service from item 4.
  6. Create a service which puts input data into a table of a database(MySQL).
  7. Create a service which guts data from the table.
