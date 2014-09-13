@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+
+<suite name="Test suite for Soap web services page">
+    <parameter name="googleIpAddress" value="173.194.113.192" />
+    <parameter name="bbcIpAddress" value="212.58.244.20" />
+
+    <test name="Test for GeoIpService soap services">
+        <groups>
+            <run>
+                <include name="SOAP_GROUP"/>
+                <include name="REST_GROUP"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="org.lelyak.webservices.GeoIPServiceTest" />
+        </classes>
+    </test>
+</suite>

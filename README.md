@@ -10,7 +10,16 @@
  7. Create a service which guts data from the table.
  8. Create 1 test for item 6 and 1 test for item 7.
  
- ### Second part 
+ ###Second part 
+ ##### Command for creating source code from wsdl file
+ > wsimport - d src/main/java -p org.lelyak.demo.webservices -extension -Xnocompile http://www.webservicex.net/geoipservice.asmx?WSDL
+ 
+ #### some ip addresses:
+   
+   * Googgle   -   173.194.113.192  
+   * BBC       -   212.58.244.20
+ 
+ ### CI part 
  
  9. Install Jenkins.
  10. Configure a job for a test suite of two tests from item 1 and 2.
